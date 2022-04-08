@@ -6,9 +6,7 @@ class MainWindow : public wxFrame
 public:
 	MainWindow();
 	~MainWindow();
-
 	void OnButtonClick(wxCommandEvent& evt);
-
 	wxDECLARE_EVENT_TABLE();
 
 public:
